@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Salty Bot",
-  "description": "salt",
+  "description": "Auto-betting bot for SaltyBet",
   "version": "1.0",
 
   "permissions": [
@@ -16,7 +16,7 @@
   },
   "content_scripts": [{
         "run_at": "document_end",
-        "matches": ["http://www.saltybet.com/"],
+        "matches": ["https://www.saltybet.com/"],
         "js": ["jquery-2.1.3.min.js", "content.js"]
   }],
   "background": {
