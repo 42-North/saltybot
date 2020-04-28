@@ -1,5 +1,5 @@
 # keep track of played matches so elo doesn't get fucked up
-import simplejson as json
+import json as simplejson
 import pickle
 from flask import Flask, request, g, render_template
 import sqlite3
